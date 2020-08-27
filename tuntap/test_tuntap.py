@@ -28,6 +28,7 @@ def test_tun():
         # if not packet.get_version() == 4:
         #     continue
         print('packet:', "".join('{:02x} '.format(x) for x in packet.data))
+        print('packet str:', packet.data)
 
         time.sleep(5)
 
