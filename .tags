@@ -5,8 +5,93 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	0.0.0	/9b28d8ce/
+IPParser	tuntap\\ip_parser.py	/^class IPParser:$/;"	kind:class	line:5
+IP_HEADER_LENGTH	tuntap\\ip_parser.py	/^    IP_HEADER_LENGTH = 20  # 报文前二十字节为ip头部$/;"	kind:variable	line:7
+IP_HEADER_LENGTH	tuntap\\tcp_paser.py	/^    IP_HEADER_LENGTH = 20  # IP报文头部的长度$/;"	kind:variable	line:3
+Packet	tuntap\\tuntap.py	/^class Packet(object):$/;"	kind:class	line:27
+TCPParser	tuntap\\tcp_paser.py	/^class TCPParser(TransParser):$/;"	kind:class	line:8
+TCP_HEADER_LENGTH	tuntap\\tcp_paser.py	/^    TCP_HEADER_LENGTH = 20  # TCP头部的长度$/;"	kind:variable	line:5
+Tap	tuntap\\tuntap.py	/^class Tap(object):$/;"	kind:class	line:71
+Test	tuntap\\tuntap.py	/^class Test(unittest.TestCase):$/;"	kind:class	line:379
+TransParser	tuntap\\tcp_paser.py	/^class TransParser:$/;"	kind:class	line:1
+TunTap	tuntap\\tuntap.py	/^def TunTap(nic_type,nic_name=None):$/;"	kind:function	line:48
+UDP_HEADER_LENGTH	tuntap\\tcp_paser.py	/^    UDP_HEADER_LENGTH = 8  # UDP头部的长度$/;"	kind:variable	line:4
+WinTap	tuntap\\tuntap.py	/^class WinTap(Tap):$/;"	kind:class	line:236
+_CTL_CODE	tuntap\\tuntap.py	/^    def _CTL_CODE(self,device_type, function, method, access):$/;"	kind:member	line:282
+_TAP_CONTROL_CODE	tuntap\\tuntap.py	/^    def _TAP_CONTROL_CODE(self,request, method):$/;"	kind:member	line:285
+__init__	tuntap\\tuntap.py	/^    def __init__(self,data=None,frame=None):$/;"	kind:member	line:28
+__init__	tuntap\\tuntap.py	/^    def __init__(self,nic_type):$/;"	kind:member	line:242
+__init__	tuntap\\tuntap.py	/^    def __init__(self,nic_type,nic_name=None):$/;"	kind:member	line:76
+_getNameByMac	tuntap\\tuntap.py	/^    def _getNameByMac(self,mac):$/;"	kind:member	line:296
+_get_device_guid	tuntap\\tuntap.py	/^    def _get_device_guid(self):$/;"	kind:member	line:266
+_get_maskbits	tuntap\\tuntap.py	/^    def _get_maskbits(self,mask):$/;"	kind:member	line:131
+_mac2string	tuntap\\tuntap.py	/^    def _mac2string(self,mac):$/;"	kind:member	line:288
+all_characters	oa_passwd.py	/^all_characters = [numbers, characters, specials]$/;"	kind:variable	line:9
+characters	oa_passwd.py	/^characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'$/;"	kind:variable	line:6
+checksum	tuntap\\pkg_maker.py	/^def checksum(msg):$/;"	kind:function	line:41
+close	tuntap\\tuntap.py	/^    def close(self):$/;"	kind:member	line:171
+close	tuntap\\tuntap.py	/^    def close(self):$/;"	kind:member	line:375
+config	tuntap\\tuntap.py	/^    def config(self,ip,mask,gateway="0.0.0.0"):$/;"	kind:member	line:143
+config	tuntap\\tuntap.py	/^    def config(self,ip,mask,gateway="0.0.0.0"):$/;"	kind:member	line:315
+create	tuntap\\tuntap.py	/^    def create(self):$/;"	kind:member	line:303
+create	tuntap\\tuntap.py	/^    def create(self):$/;"	kind:member	line:88
+echo	tuntap\\tun_icmp_echo.py	/^def echo(data):$/;"	kind:function	line:28
+est_conns	tuntap\\ip_tools.py	/^    est_conns = ll_est_tcps_by_name('QQMusic.exe')$/;"	kind:variable	line:61
+find_by_name	tuntap\\ip_tools.py	/^def find_by_name(name, pids=None):$/;"	kind:function	line:14
+gen_rand_pwd	oa_passwd.py	/^def gen_rand_pwd():$/;"	kind:function	line:30
+get_dst	tuntap\\tuntap.py	/^    def get_dst(self):$/;"	kind:member	line:44
+get_src	tuntap\\tuntap.py	/^    def get_src(self):$/;"	kind:member	line:41
+get_version	tuntap\\tuntap.py	/^    def get_version(self):$/;"	kind:member	line:38
+ip	tuntap\\test_tuntap.py	/^import ip_parser as ip$/;"	kind:namespace	line:5
+ip_parser.py	tuntap\\ip_parser.py	1;"	kind:file	line:1
+ip_tools.py	tuntap\\ip_tools.py	1;"	kind:file	line:1
+ll_all_established_conns	tuntap\\ip_tools.py	/^def ll_all_established_conns(process):$/;"	kind:function	line:31
+ll_est_tcps_by_name	tuntap\\ip_tools.py	/^def ll_est_tcps_by_name(name, pids=None):$/;"	kind:function	line:47
+ll_pids	tuntap\\ip_tools.py	/^def ll_pids():$/;"	kind:function	line:6
+load	tuntap\\tuntap.py	/^    def load(self,frame):$/;"	kind:member	line:35
+main	tuntap\\mock_udp.py	/^def main():$/;"	kind:function	line:20
+make_forward_iphdr	tuntap\\pkg_maker.py	/^def make_forward_iphdr(source_ip='1.0.0.1',$/;"	kind:function	line:9
+make_forward_udphdr	tuntap\\pkg_maker.py	/^def make_forward_udphdr(src_port=1024, dst_port=10086):$/;"	kind:function	line:35
+make_tcp_data	tuntap\\pkg_maker.py	/^def make_tcp_data(ip_header,$/;"	kind:function	line:58
+mock_send_to	tuntap\\mock_udp.py	/^def mock_send_to(ip='192.168.2.82', port=7878):$/;"	kind:function	line:5
+mock_udp.py	tuntap\\mock_udp.py	1;"	kind:file	line:1
+numbers	oa_passwd.py	/^numbers = '0123456789'$/;"	kind:variable	line:5
+oa_passwd.py	oa_passwd.py	1;"	kind:file	line:1
+open_tun	tuntap\\tun_icmp_echo.py	/^def open_tun():$/;"	kind:function	line:6
+parse	tuntap\\ip_parser.py	/^    def parse(cls, packet):$/;"	kind:member	line:56
+parse_ip_header	tuntap\\ip_parser.py	/^    def parse_ip_header(cls, ip_header):$/;"	kind:member	line:10
+parse_tcp_header	tuntap\\tcp_paser.py	/^    def parse_tcp_header(cls, tcp_header):$/;"	kind:member	line:10
 parse_ymd	ww.py	/^def parse_ymd(s):$/;"	kind:function	line:15
+parser	tuntap\\tcp_paser.py	/^    def parser(cls, packet):$/;"	kind:member	line:78
+passwd	oa_passwd.py	/^    passwd = gen_rand_pwd()$/;"	kind:variable	line:41
+pkg_maker.py	tuntap\\pkg_maker.py	1;"	kind:file	line:1
+pp_pid	tuntap\\ip_tools.py	/^def pp_pid(pid):$/;"	kind:function	line:10
 print_ww	ww.py	/^def print_ww(tday=None):$/;"	kind:function	line:7
-tday	ww.py	/^        tday = parse_ymd(sys.argv[1])$/;"	kind:variable	line:24
+pu	tuntap\\ip_tools.py	/^import psutil as pu$/;"	kind:namespace	line:3
+random_char	oa_passwd.py	/^def random_char():$/;"	kind:function	line:25
+random_pick	oa_passwd.py	/^def random_pick(some_list, probabilities):$/;"	kind:function	line:12
+read	tuntap\\tun_icmp_echo.py	/^def read(tun, size=4096):$/;"	kind:function	line:13
+read	tuntap\\tuntap.py	/^    def read(self):$/;"	kind:member	line:346
+read	tuntap\\tuntap.py	/^    def read(self,size=1522):$/;"	kind:member	line:198
+readtest	tuntap\\tuntap.py	/^    def readtest(self,tap):$/;"	kind:member	line:390
+reg	tuntap\\tuntap.py	/^    import winreg as reg$/;"	kind:namespace	line:20
+setUp	tuntap\\tuntap.py	/^    def setUp(self):$/;"	kind:member	line:382
+specials	oa_passwd.py	/^specials = '!~@_&'$/;"	kind:variable	line:7
+suite	tuntap\\tuntap.py	/^        suite = unittest.TestLoader().loadTestsFromTestCase(Test)$/;"	kind:variable	line:435
+suite	tuntap\\tuntap.py	/^    suite = unittest.TestSuite()$/;"	kind:variable	line:433
+tcp_paser.py	tuntap\\tcp_paser.py	1;"	kind:file	line:1
+tday	ww.py	/^        tday = parse_ymd(sys.argv[1])$/;"	kind:variable	line:23
 tday	ww.py	/^    tday = None$/;"	kind:variable	line:21
+tearDown	tuntap\\tuntap.py	/^    def tearDown(self):$/;"	kind:member	line:387
+testTap	tuntap\\tuntap.py	/^    def testTap(self):$/;"	kind:member	line:406
+testTun	tuntap\\tuntap.py	/^    def testTun(self):$/;"	kind:member	line:418
+test_tap	tuntap\\test_tuntap.py	/^def test_tap():$/;"	kind:function	line:36
+test_tun	tuntap\\test_tuntap.py	/^def test_tun():$/;"	kind:function	line:8
+test_tuntap.py	tuntap\\test_tuntap.py	1;"	kind:file	line:1
+ttap	tuntap\\test_tuntap.py	/^import tuntap as ttap$/;"	kind:namespace	line:4
+tun_icmp_echo	tuntap\\tun_icmp_echo.py	/^def tun_icmp_echo():$/;"	kind:function	line:45
+tun_icmp_echo.py	tuntap\\tun_icmp_echo.py	1;"	kind:file	line:1
+tuntap.py	tuntap\\tuntap.py	1;"	kind:file	line:1
+write	tuntap\\tuntap.py	/^    def write(self,data):$/;"	kind:member	line:215
+write	tuntap\\tuntap.py	/^    def write(self,data):$/;"	kind:member	line:362
 ww.py	ww.py	1;"	kind:file	line:1
