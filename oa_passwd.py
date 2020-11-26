@@ -18,8 +18,9 @@ def random_pick(some_list, probabilities):
     for item, item_probability in zip(some_list, probabilities):
         cumulative_probability += item_probability
         if x < cumulative_probability:
-            break
-    return item
+            return item
+
+    raise Exception("Should not come here!")
 
 
 def random_char():
