@@ -3,3 +3,4 @@ tuntap/__pycache__/ip_parser.cpython-37.pyc
 tuntap/__pycache__/tuntap.cpython-37.pyc
 .tags
 transform/__pycache__/gpt.cpython-310.pyc
+transform/train.txt
